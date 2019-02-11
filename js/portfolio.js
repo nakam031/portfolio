@@ -8,11 +8,13 @@ $(window).scroll(function() {
 	var stickyDiv = "navbar-fixed";
 	var yourHeader = $('.headingGroup').height();
 	console.log(yourHeader)
-	if( $(window).scrollTop() > yourHeader/2){
+	if( $(window).scrollTop() > yourHeader/3){
 		$(".headingGroup").addClass("headingOpacity");
+		// $("#gallery").css({"opacity":"1"});
 	}
 	else{
 		$(".headingGroup").removeClass("headingOpacity");
+		// $("#gallery").addClass("gallery1");
 	}
   	if( $(window).scrollTop() > yourHeader ) {
   		// console.log("if");

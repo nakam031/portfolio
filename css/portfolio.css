@@ -1,5 +1,21 @@
+body,html{
+  height:100%;
+  margin:0;
+}
 .headingOpacity{
+  -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);
 	opacity: 0.5;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2.5s;
+}
+
+.gallery1{
+  -webkit-filter: grayscale(80%); 
+  filter: grayscale(80%);
+  opacity: 0.5;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2.5s;
 }
 .headingGroup h1{
 	font-size: 5rem;
@@ -81,4 +97,41 @@
   position: fixed;
   width: 100%;
   background:white;
+}
+.media .img-thumbnail{
+  height:64px;
+  width: 64px;
+}
+
+.bgimg-1{
+  background-image:url("../imgs/sakura.jpg");
+  min-height:100%;
+}
+.bgimg-2{
+  background-image:url("../imgs/sakura_2.jpg");
+  min-height:100%;
+}
+.bgimg-1, .bgimg-2{
+  position:relative;
+  opacity:0.65;
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  box-shadow: 0 0 8px 8px white inset;
+}
+.cap{
+  padding:10%;
+  /*margin:10%;*/
+  height:100%;
+  color:#000 !important;
+  /*border:solid 1px red;*/
+}
+.caption{
+  position:absolute;
+  left:0;
+  top:50%;
+  width:100%;
+  /*margin:10% 0;*/
+  /*border:solid 1px green;*/
 }

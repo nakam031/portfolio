@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- Javascript -->
     <script
   src="https://code.jquery.com/jquery-3.3.1.js"
@@ -17,7 +18,7 @@
 
 </head>
 <body>
-    
+    <!-- heading -->
 	<section class="container-fluid headingGroup" id="heading">
 		<div class="row align-items-center">
             <div class="col-md-6 pl-0">
@@ -25,12 +26,12 @@
             </div>
             <div class="col-md-6 text-center">
                 <h1>Hitomi Nakamura</h1>
-				<p class="mb-0">Master In Geographic Information Science</p>
+				<p class="mb-0">Master of Geographic Information Science</p>
 				<p>Geospatial Support Assistant</p>
             </div>
         </div>
 	</section>
-	
+	<!-- navbar scroll down fix top -->
     <div class="scroll-down d-none d-lg-block"></div>
     <div id="mainNavbar">
         <nav class="navbar navbar-light navbar-expand-md justify-content-end">
@@ -38,7 +39,7 @@
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center my-2" id="navLinks">
+            <div class="collapse navbar-collapse justify-content-center text-center my-1" id="navLinks">
                 <ul class="nav navbar-nav">
                     <li class="nav-item mx-2">
                         <a href="#heading" class="nav-link">HOME</a>
@@ -47,15 +48,100 @@
                         <a href="#about" class="nav-link">ABOUT</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a href="portfolio" class="nav-link">PORTFOLIO</a>
+                        <a href="#gallery" class="nav-link">PORTFOLIO</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
     <section id="gallery">
-        <div class="container my-3">
+        <div class="bgimg-1">
+            <div class="col-12 caption text-center">
+                <h1 id="about" class="cap">ABOUT</h1>
+            </div>
+        </div>
+        <div class="container my-5">
             <div class="row">
+                <div class="col-12">
+                    <p>My name is Hitomi. I am a graduate student at the University of Minnesota in the Master of Geographic Information Science (GIS) program. I currently hold a Bachelor of Arts Degree from the University of Minnesota, Duluth in GIS with a minor in Geography. <br>
+                    My hometown is Fukushima, Japan where I experienced the Great East Japan Earthquake in 2011. This incident taught me the importance of preparing for natural disasters and effective urban planning. My goal when I started learning GIS was to support communities by exploring ways to mitigate risk, improve disaster resilience and enhance economic development.<br>
+                    As I pursued GIS, I became interested in web development, urban planning and remote sensing. Web GIS has a capability to serve up-to-date information to a large number of people. It is also useful for both natural disaster response and urban planning coordination.
+                    </p>
+                </div>
+                <div class="col-lg-6 mb-1 pl-5">
+                    <h3 class="mb-3">Educations</h3>
+                    <h5 class="mb-0"><i class="fas fa-graduation-cap"></i> University of Minnesota, Twin Cities</h5>
+                    <p>Master of Geographic Information Science | May, 2019<br>
+                    Minor in Managment of Technology</p>
+                    <h5 class="mb-0"><i class="fas fa-graduation-cap"></i> University of Minnesota, Duluth</h5>
+                    <p>Bachelor of Arts, Geographic Information Science | Dec, 2015<br>
+                    Minor in Geography</p>
+                    <h5 class="mb-0"><i class="fas fa-graduation-cap"></i> University of Wisconsin, Superior</h5>
+                    <p>Associate in Arts | Dec, 2013</p>
+                </div>
+                <div class="col-lg-6 mb-1 pl-5">
+                    <!-- Experiences section -->
+                    <h3 class="mb-3">Employment History</h3>
+                    <!-- first -->
+                    <div class="media">
+                        <!-- logo -->
+                        <img src="imgs/pgc640.jpg" class="img-thumbnail mt-2 mr-3 border-0" alt="Polar Geospatial Center logo">
+                        <!-- body -->
+                        <div class="media-body">
+                            <h5 class="mb-0">Geospatial Support Assistant</h5>
+                            <p>Polar Geospatial Center<br> 
+                            University of Minnesota | Oct, 2016 to Present</p>
+                        </div>
+                    </div>
+                    <!-- second -->
+                    <div class="media">
+                        <!-- logo -->
+                        <img src="imgs/uofm_logo2.jpg" class="img-thumbnail mt-2 mr-3 border-0" alt="University of Minnesota logo">
+                        <!-- body -->
+                        <div class="media-body">
+                            <h5 class="mb-0">Graduate Student Assistant</h5>
+                            <p>School of Kinesiology<br> 
+                            University of Minnesota | Oct, 2016 - Jan, 2017</p>
+                        </div>
+                    </div>
+                    <!-- third -->
+                    <div class="media">
+                        <!-- logo -->
+                        <img src="imgs/umdlogo.jpg" class="img-thumbnail mt-2 mr-3 border-0" alt="UMD logo">
+                        <!-- body -->
+                        <div class="media-body">
+                            <h5 class="mb-0">Cartographic Assistant / Technician</h5>
+                            <p>Department of Geography<br> 
+                            University of Minnesota, Duluth | Fall, 2015</p>
+                        </div>
+                    </div>
+                    <!-- fourth -->
+                    <div class="media">
+                        <!-- logo -->
+                        <img src="imgs/cityofDuluth_logo.jpg" class="img-thumbnail mt-2 mr-3 border-0" alt="City of Duluth logo">
+                        <!-- body -->
+                        <div class="media-body">
+                            <h5 class="mb-0">GIS Intern</h5>
+                            <p>Facility of Management<br> 
+                            City of Duluth, MN | Summer, 2015</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="bgimg-2">
+            <div class="col-12 caption text-center">
+                <h1 id="portfolio" class="cap">PORTFOLIO</h1>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row" id="galleryRow">
+                <!-- <div id="portfolio" class="col-12 mb-3 text-center">
+                    <h1 class="my-5">PORTFOLIO</h1>
+                    <h3 class="mb-1">Cartography / Spatial Analysis</h3>
+                </div> -->
+
+                <!-- 1st Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
                         <img class="card-img-top" data-toggle="modal" data-target="#modal1" src="imgs/tourmap-1.jpg">
@@ -69,7 +155,7 @@
                     </div>
                 </div>
                 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1_centerTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                  <h5 class="modal-title" id="modal1_longTitle">Modal title</h5>
@@ -83,9 +169,11 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- 2nd Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal2" src="imgs/northern_minnesota_road_map.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal2" src="imgs/BethMap_publish.jpg">
                         <div class="card-body">
                             <h5 class="card-title">TITLE</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -96,7 +184,7 @@
                     </div>
                 </div>
                 <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2_centerTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                  <h5 class="modal-title" id="modal2_longTitle">Modal title</h5>
@@ -105,13 +193,305 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <object class="card-img-top" data-toggle="modal" data-target="#modal2" data="imgs/northern_minnesota_road_map.jpg"></object>
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal2" src="imgs/BethMap_publish.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+
+                <!-- 3rd Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal3" src="imgs/iwaki_city_population_changes.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal3_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal3" src="imgs/iwaki_city_population_changes.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal4" src="imgs/northern_minnesota_road_map.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal4_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal4" src="imgs/northern_minnesota_road_map.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal5" src="imgs/Lakewalk_Duluth.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal5_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal5" src="imgs/Lakewalk_Duluth.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal6" src="imgs/Regional.png">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal6_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal6" src="imgs/Regional.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal7" src="imgs/UMDColor-page.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal7_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal7" src="imgs/UMDColor-page.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal8" src="imgs/UMDGray-page.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal8_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal8" src="imgs/UMDGray-page.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal9" src="imgs/minnesota_climate.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal9_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal9" src="imgs/minnesota_climate.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal10" src="imgs/choroplethmap-1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal10_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal10" src="imgs/choroplethmap-1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal11" src="imgs/proportionalmap.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal11_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal11" src="imgs/proportionalmap.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12th Card -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modal12" src="imgs/DensitySlice_Map.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">TITLE</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  ed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal12_longTitle">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modal12" src="imgs/DensitySlice_Map.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div> <!-- class= row -->
+        </div> <!-- class=container -->
     </section>
 	<!-- <div class="jumbotron jumbotron-fluid">
 		<div class="headingGroup text-right">
