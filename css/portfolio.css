@@ -139,3 +139,7 @@ body,html{
 .card .card-img-top:hover{
   opacity:0.6;
 }
+
+#image_link:hover{
+  opacity: 0.6;
+}
