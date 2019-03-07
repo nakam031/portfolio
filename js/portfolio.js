@@ -4,11 +4,11 @@
 
 
 $(window).scroll(function() {
-	var yourNavigation = $("#mainNavbar");
+	var myNavigation = $("#mainNavbar");
 	var stickyDiv = "navbar-fixed";
-	var yourHeader = $('.headingGroup').height();
-	console.log(yourHeader)
-	if( $(window).scrollTop() > yourHeader/3){
+	var myHeader = $('.headingGroup').height();
+	console.log(myHeader)
+	if( $(window).scrollTop() > myHeader/3){
 		$(".headingGroup").addClass("headingOpacity");
 		// $("#gallery").css({"opacity":"1"});
 	}
@@ -16,14 +16,14 @@ $(window).scroll(function() {
 		$(".headingGroup").removeClass("headingOpacity");
 		// $("#gallery").addClass("gallery1");
 	}
-  	if( $(window).scrollTop() > yourHeader ) {
+  	if( $(window).scrollTop() > myHeader ) {
   		// console.log("if");
   		// $("#mainNavbar").css({"top": "0", "z-index": "100", "position": "fixed", "width": "100%"});
-    	yourNavigation.addClass(stickyDiv);
+    	myNavigation.addClass(stickyDiv);
   	}
   	else {
   		// console.log("else")
 
-    	yourNavigation.removeClass(stickyDiv);
+    	myNavigation.removeClass(stickyDiv);
   	}
 });
