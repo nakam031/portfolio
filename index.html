@@ -256,10 +256,8 @@
                 </div>
                 
                 <!-- ArcticDEM website -->
-                <div class="col-lg-12 my-5">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://nakam031.github.io/gis8990/"></iframe>
-                    </div>
+                <div class="col-lg-6 my-5">
+                    <img class="img-fluid" src="imgs/arcticdem_web.jpg">
                     <div class="mt-3">
                         <p>I created this website to introduce and demonstrate the usage of <a href="http://arcticdem.org" target="_blank">ArcticDEM</a>.<br>
                         I used ArcMap, ArcGIS API for JavaScript and ArcGIS Server to show the wildfire damage in the Northwest Territories, Canada. Then, I embedded the web maps to the website. Web maps are hosted with ArcGIS Server.
@@ -271,332 +269,358 @@
                 
 
                 <!-- poster migration -->
-                <div class="col-lg-12 my-5">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://nakam031.github.io/iwaki_great_east_japan/"></iframe>
-                    </div>
+                <div class="col-lg-6 my-5">
+                    <img class="img-fluid" src="imgs/earthquake_web.jpg">
                     <div class="mt-3">
                         <p>I created this website to introduce the damage and the recovery in Iwaki City, Fukushima, Japan, focusing on population change and physical recovery.<br>
                         I migrated the information and maps on the poster which was designed using ArcMap, Adobe Illustrator and Indesign. Then, I used HTML, CSS and Bootstrap to create a resposive website.<br>
-                        Image below shows the original poster which introduces the damage and the recovery in Iwaki City. <br>
                         <a href="https://nakam031.github.io/iwaki_great_east_japan/" target="_blank">Visit the full website</a>
                         </p>
-                        <a href="imgs/posterforGISLIS.pdf" target="_blank">
-                        <img id="image_link" class="img-fluid" src="imgs/posterforGISLIS-1.jpg"></a>
                     </div>
                 </div>
 
                 <div class="col-lg-12 text-center my-3">
                     <h2>Cartography and Spatial Analysis</h2>
                 </div>
-                <!-- 1st Card -->
+
+                <!-- Poster Card -->
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC00" src="imgs/posterforGISLIS-1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Poster Presentation</h5>
+                            <p class="card-text">I created this poster to introduce the damage and the recovery of Iwaki City, Fukushima, Japan. I digitized 13 districts in Iwaki City using edit tool since there was no shapefile available.  Point of interests are collected using Collector App for ArcGIS. Map and poster design was done by using ArcMap, Adobe Illustrator and InDesign.
+                            <br>
+                            <a href="imgs/posterforGISLIS.pdf" target="_blank">Open the PDF File</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modalC00" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                 <h5 class="modal-title" id="modal_longTitle">Poster Presentation</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC00" src="imgs/posterforGISLIS-1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campus Tour Card -->
                 
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal1" src="imgs/tourmap-1.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC01" src="imgs/tourmap-1.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Campus Tour Map</h5>
                             <p class="card-text">I created this map as a part of the group project in Project Management class. Teammates and I collected the GPS points of Pokestops and Pokegyms by utilizing Esri's ArcGIS Collector App and Pokemon Go application. Then, I used the data to create a campus tour map for new/transfer students in University of Minnesota. This project was presented to the Facility Management Team at the University of Minnesota to propose the collaboration of Pokemon Go application and campus tour activity.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC01" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal1_longTitle">Campus Tour Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Campus Tour Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" src="imgs/tourmap-1.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC01" src="imgs/tourmap-1.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 2nd Card -->
+                <!-- Publication Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal2" src="imgs/BethMap_publish.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC02" src="imgs/BethMap_publish.jpg">
                         <div class="card-body">
                             <h5 class="card-title">A Map for Book Publication</h5>
                             <p class="card-text">I created this map for Dr. Elizabeth Bartlett's publication, "Making Waves: Grassroots Feminism in Duluth and Superior." I geocoded the location with ArcMap. After creating basic layout, I changed the platform to Adobe Illustrator for advanced cartography.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC02" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal2_longTitle">A Map for Book Publication</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">A Map for Book Publication</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal2" src="imgs/BethMap_publish.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC02" src="imgs/BethMap_publish.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 3rd Card -->
+                <!-- dual-axis map Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal3" src="imgs/iwaki_city_population_changes.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC03" src="imgs/iwaki_city_population_changes.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Dual-Axis Map</h5>
                             <p class="card-text">In my cartography class, I made a dual-axis map to show the population density decrease from 2010 to 2014 in Iwaki City, Fukushima, Japan. I used georeferencing and edit tool to create the Iwaki City's district polygons. Then, I created and exported both the population density map and the population percentage change map individually using ArcMap. Finally, overlaying and designing the map was done by Adobe Illustrator.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC03" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal3_longTitle">Dual-Axis Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Dual-Axis Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal3" src="imgs/iwaki_city_population_changes.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC03" src="imgs/iwaki_city_population_changes.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 4th Card -->
+                <!-- northern minneosota road map Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal4" src="imgs/northern_minnesota_road_map.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC04" src="imgs/northern_minnesota_road_map.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Cartography of Road Map</h5>
                             <p class="card-text">The primary object of this project was to create a road map of northeast Minnesota which is functional and aesthetically pleasing. Basic map layout was done in ArcMap. However, most of the cartography was done using Adobe Illustrator. Ski symbol and Minnesota State Highway label was created in Illustrator specifically for this road map.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC04" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal4_longTitle">Cartography of Road Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Cartography of Road Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal4" src="imgs/northern_minnesota_road_map.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC04" src="imgs/northern_minnesota_road_map.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 5th Card -->
+                <!-- lake superior location guide Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal5" src="imgs/Lakewalk_Duluth.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC05" src="imgs/Lakewalk_Duluth.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Lake Superior Location Guide Map</h5>
                             <p class="card-text">As a summer intern at the City of Duluth, I was assigned to create a location guide map for the Lakewalk, which is along the Lake Superior. ArcMap and Adobe Illustrator was utilized to complete this task.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC05" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal5_longTitle">Lake Superior Location Guide Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Lake Superior Location Guide Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal5" src="imgs/Lakewalk_Duluth.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC05" src="imgs/Lakewalk_Duluth.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 6th Card -->
+                <!-- cartography assisted map Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal6" src="imgs/Regional.png">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC06" src="imgs/Regional.png">
                         <div class="card-body">
                             <h5 class="card-title">Cartography Assisted Map</h5>
                             <p class="card-text">I assisted a geography instructor at the University of Minnesota, Duluth to create this map for publication. My major task was to do all the location labelings. Both ArcMap and Adobe Illustrator was used for labeling.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC06" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal6_longTitle">Cartography Assisted Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Cartography Assisted Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal6" src="imgs/Regional.png">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC06" src="imgs/Regional.png">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 7th Card -->
+                <!-- campus map with color Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal7" src="imgs/UMDColor-page.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC07" src="imgs/UMDColor-page.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Campus Map with Color</h5>
                             <p class="card-text">In my cartography class, I created a campus map using ArcMap. I used Maplex Label Engine, annotation feature class, and representation tool to complete this project.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC07" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal7_longTitle">Campus Map with Color</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Campus Map with Color</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal7" src="imgs/UMDColor-page.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC07" src="imgs/UMDColor-page.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 8th Card -->
+                <!-- campus map grey Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal8" src="imgs/UMDGray-page.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC08" src="imgs/UMDGray-page.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Campus Map in Grey Scale</h5>
                             <p class="card-text">In my cartography class, I created this campus map using ArcMap (along with colored version). I used Maplex Label Engine, annotation feature class, and representation tool to complete this project.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC08" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal8_longTitle">Campus Map in Grey Scale</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Campus Map in Grey Scale</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal8" src="imgs/UMDGray-page.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC08" src="imgs/UMDGray-page.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 9th Card -->
+                <!-- climate analysis map Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal9" src="imgs/minnesota_climate.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC09" src="imgs/minnesota_climate.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Spatial Analysis Map</h5>
                             <p class="card-text">In GIS statistic class, I created a map that shows the climate trends across Minnesota. This analysis was done by using ArcMap's Interpolation tool. </p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC09" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal9_longTitle">Spatial Analysis Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Spatial Analysis Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal9" src="imgs/minnesota_climate.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC09" src="imgs/minnesota_climate.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 10th Card -->
+                <!-- choropleth Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal10" src="imgs/choroplethmap-1.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC10" src="imgs/choroplethmap-1.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Choropleth Map</h5>
                             <p class="card-text">In cartography class, I learned how to create choropleth map. I used ArcMap to complete this project.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC10" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal10_longTitle">Choropleth Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Choropleth Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal10" src="imgs/choroplethmap-1.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC10" src="imgs/choroplethmap-1.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 11th Card -->
+                <!-- proportional Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal11" src="imgs/proportionalmap.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC11" src="imgs/proportionalmap.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Proportional Map</h5>
                             <p class="card-text">In cartography class, I learned how to create proportional map along with choropleth map. I used Excel to calculate the size of circles.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC11" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal11_longTitle">Proportional Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Proportional Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal11" src="imgs/proportionalmap.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC11" src="imgs/proportionalmap.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- 12th Card -->
+                <!-- shorline of Haiti Card -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal12" src="imgs/DensitySlice_Map.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalC12" src="imgs/DensitySlice_Map.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Density Slice Map</h5>
                             <p class="card-text">In the remote sensing class, I learned how to utilize Erdas Imagine and ArcMap to do density slice analysis. This map shows the change over time in Etange Saumatre Lake in Haiti.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalC12" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal12_longTitle">Density Slice Map</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Density Slice Map</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" data-toggle="modal" data-target="#modal12" src="imgs/DensitySlice_Map.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalC12" src="imgs/DensitySlice_Map.jpg">
                             </div>
                         </div>
                     </div>
@@ -610,24 +634,24 @@
                 <!-- pgc codes -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal0P" src="imgs/2010-1.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalP00" src="imgs/2010-1.jpg">
                         <div class="card-body">
                             <h5 class="card-title">PGC Automating Workflows</h5>
                             <p class="card-text">To automate the processes, I created several python scripts that improved the existing workflow at Polar Geospatial Center. Some of the scripts are on my GitHub. For example, I created a script that produces RGB band images for all the images downloaded from the USGS Earth Explorer. Python and ArcPy was used in this script. This script was necessary to complete the fast ice deliniation of entire Antarctica for seal habitat study. Visit the <a href="https://github.com/nakam031/code_pgc" target="_blank">GitHub page</a> to see the codes I created for PGC workflows. </p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal0P" tabindex="-1" role="dialog" aria-labelledby="modal1_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalP00" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal1_longTitle">PGC Automating Workflows</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">PGC Automating Workflows</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" src="imgs/2010-1.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalP00" src="imgs/2010-1.jpg">
                             </div>
                         </div>
                     </div>
@@ -635,24 +659,24 @@
                 <!-- sql modal -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal0" src="imgs/sql_example.png">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalP01" src="imgs/sql_example.png">
                         <div class="card-body">
                             <h5 class="card-title">Wildfire Study Utilizing PostGIS</h5>
                             <p class="card-text">I conducted a semester-long project to analyze wildfires that occurred in State of Nevada from 2000 to 2016. I utilized PostgreSQL, PostGIS, QGIS and ArcMap to complete the analysis. Visit the <a href="https://github.com/nakam031/spatial_database/blob/master/finalproject_finalized.sql" target="_blank">GitHub page</a> to see my SQL code.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal0" tabindex="-1" role="dialog" aria-labelledby="modal1_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalP01" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal1_longTitle">Wildfire Study Utilizing PostGIS</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Wildfire Study Utilizing PostGIS</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" src="imgs/sql_example.png">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalP01" src="imgs/sql_example.png">
                             </div>
                         </div>
                     </div>
@@ -661,24 +685,24 @@
                 <!-- toolbox modal -->
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modal01" src="imgs/Toolboxinterface.png">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalP02" src="imgs/Toolboxinterface.png">
                         <div class="card-body">
                             <h5 class="card-title">Custom Toolbox with Python & ArcPy</h5>
                             <p class="card-text">I created a custom tool that can do multiple summary statistics with multiple selections of case fields. Since conventional Measuring Geographic Distributions toolset allows only one case field, I decided to customize my tool to calculate with selections of multiple case fields. This tool minimized the process of getting multiple summary statistics since it can have multiple outputs at one custom toolbox. Visit the <a href="https://umn.maps.arcgis.com/home/item.html?id=9688a5c7f6014acab29a30fdda8ccec8" target="_blank">ArcGIS Online page</a> to view/download the toolbox.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modal01" tabindex="-1" role="dialog" aria-labelledby="modal1_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalP02" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal1_longTitle">Custom Toolbox with Python & ArcPy</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Custom Toolbox with Python & ArcPy</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" src="imgs/Toolboxinterface.png">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalP02" src="imgs/Toolboxinterface.png">
                             </div>
                         </div>
                     </div>
@@ -690,24 +714,24 @@
 
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modalA1" src="imgs/subdivision_plan.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalA00" src="imgs/subdivision_plan.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Subdivision Planning</h5>
                             <p class="card-text">I created this subdivision plan using Civil 3D. First, I drew roads and railroad from the survey points. Then, I subdivided the empty land for potential residential area.  I also created and inserted the customized block to make it to a printable map.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modalA1" tabindex="-1" role="dialog" aria-labelledby="modal1_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalA00" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal1_longTitle">Subdivision Planning</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Subdivision Planning</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" src="imgs/subdivision_plan.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalA00" src="imgs/subdivision_plan.jpg">
                             </div>
                         </div>
                     </div>
@@ -715,24 +739,24 @@
 
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modalA2" src="imgs/pipe.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalA01" src="imgs/pipe.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Drawing with Dimensions</h5>
                             <p class="card-text">I drew this as a part of class exam to demonstrate my knowledge in using AutoCAD to recreate the drawing with dimensions.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modalA2" tabindex="-1" role="dialog" aria-labelledby="modal1_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalA01" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal1_longTitle">Drawing with Dimensions</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Drawing with Dimensions</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" src="imgs/pipe.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalA01" src="imgs/pipe.jpg">
                             </div>
                         </div>
                     </div>
@@ -740,24 +764,24 @@
 
                 <div class="col-lg-4 mb-3">
                     <div class="card">
-                        <img class="card-img-top" data-toggle="modal" data-target="#modalA3" src="imgs/football_field.jpg">
+                        <img class="card-img-top" data-toggle="modal" data-target="#modalA02" src="imgs/football_field.jpg">
                         <div class="card-body">
                             <h5 class="card-title">Football Field</h5>
                             <p class="card-text">I drew a football field as a class assignment. I learned how to use drawing tools, command and shortcuts in AutoCAD.</p>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="modalA3" tabindex="-1" role="dialog" aria-labelledby="modal1_centerTitle" aria-hidden="true">
+                <div class="modal fade" id="modalA02" tabindex="-1" role="dialog" aria-labelledby="modal_centerTitle" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                 <h5 class="modal-title" id="modal1_longTitle">Football Field</h5>
+                                 <h5 class="modal-title" id="modal_longTitle">Football Field</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img class="card-img-top" src="imgs/football_field.jpg">
+                                <img class="card-img-top" data-toggle="modal" data-target="#modalA02" src="imgs/football_field.jpg">
                             </div>
                         </div>
                     </div>
